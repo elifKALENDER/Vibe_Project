@@ -1,0 +1,19 @@
+.menu-button {
+    font-size: 30px;
+    -unity-font-style: bold;
+    background-color: rgba(18, 20, 32, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgb(229, 242, 201);
+    -unity-font-definition: url("project://database/Assets/UI/BarlowCondensed-Bold%20SDF.asset?fileID=11400000&guid=6e91f5bd1c0f5114cbb84de063a9f4a5&type=2#BarlowCondensed-Bold SDF");
+    transition-duration: 0.2s;
+}
+
+.menu-button:hover {
+    color: rgb(229, 242, 201);
+    font-size: 40px;
+    rotate: -10deg;
+    transition-duration: 0.3s;
+}
